@@ -1,12 +1,13 @@
-const cool = require('cool-ascii-faces')
-const express = require('express')
-const path = require('path')
-const PORT = process.env.PORT || 5000
+const express = require("express");
 
-express()
-  .use(express.static(path.join(__dirname, 'public')))
-  .set('views', path.join(__dirname, 'views'))
-  .set('view engine', 'ejs')
-  .get('/', (req, res) => res.render('pages/index'))
-  .get('/cool', (req, res) => res.send(cool()))
-  .listen(PORT, () => console.log(`Listening on ${ PORT }`))
+const app = express();
+
+app.use(express.static('asset'))
+
+app.get("/", (req, res) => {
+  res.sendFile((path.join(__dirname, "index.html"));
+});
+
+const PORT = process.env.PORT
+
+app.listen(PORT);
