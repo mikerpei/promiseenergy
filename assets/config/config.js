@@ -23,6 +23,6 @@ CONFIG = {
     },
 
     // Default Toast dismissal time
-    toastSpeed: 4000,
+    toastSpeed: 8000,
 
 };
