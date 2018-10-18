@@ -8,6 +8,6 @@ app.get("/", (req, res) => {
   res.sendFile((path.join(__dirname, "index.html"));
 });
 
-const PORT = process.env.PORT
+const PORT = process.env.PORT //dynamic port from heroku
 
 app.listen(PORT);
