@@ -31,7 +31,7 @@
         <meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png">
         <meta name="msapplication-config" content="/favicons/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
-        <title>React &mdash; Ring Blue</title>
+        <title>Promise Energy, Inc.</title>
     </head>
     <body class="ring-pink-skin">
         <!-- Progress indicating form action-->
@@ -928,13 +928,18 @@
                 <h3>Send us a message</h3>
                 <div class="row send-message">
                     <div class="col s12 l8 offset-l2">
-                        <div id="human-form" class="card-panel center hoverable">
-                            <div class="row">
-                                <div class="col s12">
-                                    <p class="flow-text">Dear guys from React,<br>My name is&nbsp;<span id="name-human" contenteditable="true"></span>, you can reach me via&nbsp;<span id="contact-human" contenteditable="true" data-position="top" data-delay="10" data-tooltip="Email or phone number" class="tooltipped"></span>.</p>
-                                    <p class="flow-text"><span id="message-human" contenteditable="true">I would like to...</span></p><button id="send-message-human" class="btn btn-large btn-flat waves-effect waves-light">Send</button>
+                        <div class="card-panel center hoverable">
+                            <form id="classic-form" action="mailer/mailer.php" novalidate autocomplete="off" class="row">
+                                <div class="col s12 l6">
+                                    <div class="input-field"><input id="name-classic" type="text" name="name" class="validate"><label for="name-classic">Name</label></div>
                                 </div>
-                            </div>
+                                <div class="col s12 l6">
+                                    <div class="input-field"><input id="contact-classic" type="email" name="email" class="validate"><label for="contact-classic">Email</label></div>
+                                </div>
+                                <div class="col s12">
+                                    <div class="input-field"><textarea id="message-classic" name="message" class="materialize-textarea"></textarea><label for="message-classic">Textarea</label></div>
+                                </div><button id="send-message-classic" type="submit" class="btn btn-large btn-flat waves-effect waves-light">Send</button>
+                            </form>
                         </div>
                     </div>
                 </div>
