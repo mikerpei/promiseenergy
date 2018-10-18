@@ -252,7 +252,7 @@ iframe {
   float: left;
   width: 60px;
   height: 60px;
-  border: 3.75px solid #9e9e9e;
+  border: 3.75px solid #F98700;
   border-radius: 50%;
   animation: spinner 2s linear infinite;
 }
@@ -294,7 +294,7 @@ iframe {
   left: 26.25px;
   width: 7.5px;
   height: 7.5px;
-  background: #fff;
+  background: #02A2DC;
   border-radius: 50%;
   content: '';
 }
@@ -511,7 +511,7 @@ iframe {
   z-index: 999;
   width: 100%;
   height: 100%;
-  background: #191919;
+  background: #fff;
 }
 
 .spinner-container > div {
