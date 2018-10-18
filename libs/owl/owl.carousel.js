@@ -2688,7 +2688,7 @@
 	 */
 	Navigation.Defaults = {
 		nav: false,
-		navText: [ '<i class="fal fa-arrow-left"></i>', 'next' ],
+		navText: [ 'prev', 'next' ],
 		navSpeed: false,
 		navElement: 'div',
 		navContainer: false,

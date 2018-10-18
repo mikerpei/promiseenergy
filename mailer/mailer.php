@@ -50,7 +50,7 @@ else
 
     $mail->setFrom($form_data['contact'], $form_data['name']);
 
-    $mail->Subject = 'New message via PEI Website Contact Us';
+    $mail->Subject = 'New message via Promise Website';
 
     // Uses templater.php to do some magic
     $mail->Body = parseTemplate($form_data);

@@ -1097,7 +1097,7 @@ THREE.Quaternion.prototype = {
 
 	setFromUnitVectors: function () {
 
-		// http://lolengine.net/who-we-serve/2014/02/24/quaternion-from-two-vectors-final
+		// http://lolengine.net/blog/2014/02/24/quaternion-from-two-vectors-final
 
 		// assumes direction vectors vFrom and vTo are normalized
 
@@ -1370,9 +1370,9 @@ THREE.Quaternion.slerp = function ( qa, qb, qm, t ) {
 
 /**
  * @author mrdoob / http://mrdoob.com/
- * @author philogb / http://who-we-serve.thejit.org/
+ * @author philogb / http://blog.thejit.org/
  * @author egraether / http://egraether.com/
- * @author zz85 / http://www.lab4games.net/zz85/who-we-serve
+ * @author zz85 / http://www.lab4games.net/zz85/blog
  */
 
 THREE.Vector2 = function ( x, y ) {
@@ -1808,7 +1808,7 @@ THREE.Vector2.prototype = {
 /**
  * @author mrdoob / http://mrdoob.com/
  * @author *kile / http://kile.stravaganza.org/
- * @author philogb / http://who-we-serve.thejit.org/
+ * @author philogb / http://blog.thejit.org/
  * @author mikael emtinger / http://gomo.se/
  * @author egraether / http://egraether.com/
  * @author WestLangley / http://github.com/WestLangley
@@ -2611,7 +2611,7 @@ THREE.Vector3.prototype = {
 
 /**
  * @author supereggbert / http://www.paulbrunt.co.uk/
- * @author philogb / http://who-we-serve.thejit.org/
+ * @author philogb / http://blog.thejit.org/
  * @author mikael emtinger / http://gomo.se/
  * @author egraether / http://egraether.com/
  * @author WestLangley / http://github.com/WestLangley
@@ -4582,7 +4582,7 @@ THREE.Matrix3.prototype = {
 /**
  * @author mrdoob / http://mrdoob.com/
  * @author supereggbert / http://www.paulbrunt.co.uk/
- * @author philogb / http://who-we-serve.thejit.org/
+ * @author philogb / http://blog.thejit.org/
  * @author jordi_ros / http://plattsoft.com
  * @author D1plo1d / http://github.com/D1plo1d
  * @author alteredq / http://alteredqualia.com/
@@ -9137,7 +9137,7 @@ THREE.InterleavedBufferAttribute.prototype = {
  * @author kile / http://kile.stravaganza.org/
  * @author alteredq / http://alteredqualia.com/
  * @author mikael emtinger / http://gomo.se/
- * @author zz85 / http://www.lab4games.net/zz85/who-we-serve
+ * @author zz85 / http://www.lab4games.net/zz85/blog
  * @author bhouston / http://clara.io
  */
 
@@ -13799,7 +13799,7 @@ THREE.OrthographicCamera.prototype.toJSON = function ( meta ) {
 /**
  * @author mrdoob / http://mrdoob.com/
  * @author greggman / http://games.greggman.com/
- * @author zz85 / http://www.lab4games.net/zz85/who-we-serve
+ * @author zz85 / http://www.lab4games.net/zz85/blog
  */
 
 THREE.PerspectiveCamera = function ( fov, aspect, near, far ) {
@@ -21106,7 +21106,7 @@ THREE.ShaderLib = {
 	 * http://www.gamedev.net/topic/442138-packing-a-float-into-a-a8r8g8b8-texture-shader/page__whichpage__1%25EF%25BF%25BD
 	 *
 	 * see also
-	 * http://aras-p.info/who-we-serve/2009/07/30/encoding-floats-to-rgba-the-final/
+	 * http://aras-p.info/blog/2009/07/30/encoding-floats-to-rgba-the-final/
 	 */
 
 	'depthRGBA': {
@@ -28344,7 +28344,7 @@ THREE.SpritePlugin = function ( renderer, sprites ) {
 // File:src/extras/CurveUtils.js
 
 /**
- * @author zz85 / http://www.lab4games.net/zz85/who-we-serve
+ * @author zz85 / http://www.lab4games.net/zz85/blog
  */
 
 THREE.CurveUtils = {
@@ -28531,7 +28531,7 @@ THREE.SceneUtils = {
 // File:src/extras/ShapeUtils.js
 
 /**
- * @author zz85 / http://www.lab4games.net/zz85/who-we-serve
+ * @author zz85 / http://www.lab4games.net/zz85/blog
  */
 
 THREE.ShapeUtils = {
@@ -28565,7 +28565,7 @@ THREE.ShapeUtils = {
 		 * www.actionsnippet.com
 		 *
 		 * ported to javascript by Joshua Koo
-		 * http://www.lab4games.net/zz85/who-we-serve
+		 * http://www.lab4games.net/zz85/blog
 		 *
 		 */
 
@@ -29565,7 +29565,7 @@ THREE.AudioListener.prototype.updateMatrixWorld = ( function () {
 // File:src/extras/core/Curve.js
 
 /**
- * @author zz85 / http://www.lab4games.net/zz85/who-we-serve
+ * @author zz85 / http://www.lab4games.net/zz85/blog
  * Extensible curve object
  *
  * Some common of Curve methods
@@ -29855,7 +29855,7 @@ THREE.Curve.create = function ( constructor, getPointFunc ) {
 // File:src/extras/core/CurvePath.js
 
 /**
- * @author zz85 / http://www.lab4games.net/zz85/who-we-serve
+ * @author zz85 / http://www.lab4games.net/zz85/blog
  *
  **/
 
@@ -30034,7 +30034,7 @@ THREE.CurvePath.prototype.createGeometry = function( points ) {
 // File:src/extras/core/Path.js
 
 /**
- * @author zz85 / http://www.lab4games.net/zz85/who-we-serve
+ * @author zz85 / http://www.lab4games.net/zz85/blog
  * Creates free form 2d path using series of points, lines or curves.
  *
  **/
@@ -30761,7 +30761,7 @@ THREE.Path.prototype.toShapes = function( isCCW, noHoles ) {
 // File:src/extras/core/Shape.js
 
 /**
- * @author zz85 / http://www.lab4games.net/zz85/who-we-serve
+ * @author zz85 / http://www.lab4games.net/zz85/blog
  * Defines a 2d shape plane using paths.
  **/
 
@@ -31991,7 +31991,7 @@ THREE.EdgesGeometry.prototype.constructor = THREE.EdgesGeometry;
 // File:src/extras/geometries/ExtrudeGeometry.js
 
 /**
- * @author zz85 / http://www.lab4games.net/zz85/who-we-serve
+ * @author zz85 / http://www.lab4games.net/zz85/blog
  *
  * Creates extruded geometry from a path shape.
  *
@@ -34374,7 +34374,7 @@ THREE.TetrahedronGeometry.prototype.clone = function () {
 /**
  * @author zz85 / https://github.com/zz85
  * Parametric Surfaces Geometry
- * based on the brilliant article by @prideout http://prideout.net/who-we-serve/?p=44
+ * based on the brilliant article by @prideout http://prideout.net/blog/?p=44
  *
  * new THREE.ParametricGeometry( parametricFunction, uSegments, ySegements );
  *

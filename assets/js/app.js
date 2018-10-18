@@ -67,8 +67,7 @@ App = {
     owl: function owl () {
         $('.owl-carousel').owlCarousel({
             items: 1,
-            dots: true,
-            nav:true
+            dots: true
         });
     },
 

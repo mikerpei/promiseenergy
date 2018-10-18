@@ -786,7 +786,7 @@
                 "videlalvaro/php-amqplib": "~2.4"
             },
             "suggest": {
-                "aws/aws-sdk-php": "Allow sending log messages to AWS how-we-work like DynamoDB",
+                "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
                 "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
                 "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
                 "ext-mongo": "Allow sending log messages to a MongoDB server",
@@ -819,7 +819,7 @@
                     "homepage": "http://seld.be"
                 }
             ],
-            "description": "Sends your logs to files, sockets, inboxes, databases and various web how-we-work",
+            "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
             "homepage": "http://github.com/Seldaek/monolog",
             "keywords": [
                 "log",
@@ -3249,7 +3249,7 @@
                 "zendframework/zend-mvc": "~2.5"
             },
             "suggest": {
-                "ocramius/proxy-manager": "ProxyManager 0.5.* to handle lazy initialization of how-we-work",
+                "ocramius/proxy-manager": "ProxyManager 0.5.* to handle lazy initialization of services",
                 "zendframework/zend-di": "Zend\\Di component"
             },
             "type": "library",

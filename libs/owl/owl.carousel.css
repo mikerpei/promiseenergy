@@ -109,12 +109,6 @@
   .owl-carousel.owl-rtl .owl-item {
     float: right; }
 
-.owl-prev,
-.owl-next {
-    display: inline-block;
-    margin: 5px;
-}
-
 /* No Js */
 .no-js .owl-carousel {
   display: block; }

@@ -10,8 +10,8 @@ $shadow-size: ($radius / 9);
 $mobile-shadow-size: ($radius / 20);
 $opacity: .8;
 $acceleration: 15s;
-$ring-color-1: transparentize(color('#02A2DC', '#24c0f9'), .3);
-$ring-color-2: transparentize(color('#2072B8', '#2b97f4'), .3);
+$ring-color-1: transparentize(color('purple', 'accent-2'), .3);
+$ring-color-2: transparentize(color('deep-purple', 'accent-3'), .3);
 
 // Skin customisation
 .ring-pink-skin {
@@ -28,7 +28,7 @@ $ring-color-2: transparentize(color('#2072B8', '#2b97f4'), .3);
     .hero {
         position: relative;
         overflow: hidden;
-        background-color: color('#25b8f8', 'lighten-3');
+        background-color: color('light-blue', 'lighten-3');
 
         h1 {
             position: relative;
@@ -61,7 +61,7 @@ $ring-color-2: transparentize(color('#2072B8', '#2b97f4'), .3);
         margin-top: -$radius;
         margin-left: -$radius - 25;
     }
-    
+
     .ring::after,
     .ring::before {
         @include transform-origin(center center);
