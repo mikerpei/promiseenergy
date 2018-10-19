@@ -1,6 +1,6 @@
 <?php
 
-$my_email = 'miker@promiseenergy.com';
+$my_email = 'info@promiseenergy.com';
 
 $SMTP = array(
     'enabled' => true,
