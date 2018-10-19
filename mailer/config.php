@@ -4,9 +4,9 @@ $my_email = 'my@email.com';
 
 $SMTP = array(
     'enabled' => true,
-    'host' => 'ssl://smtp.gmail.com',
-    'username' => 'contactus@promiseenergy.com',
-    'password' => 'Promise2018!Promise',
+    'host' => 'smtp.gmail.com',
+    'username' => 'promisecontactus@gmail.com',
+    'password' => 'PEIwebsite4$',
     'port' => 465,
     'encryption' => 'ssl'
 );
