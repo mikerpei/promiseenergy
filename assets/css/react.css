@@ -1482,14 +1482,16 @@ footer.page-footer input[type=submit]:focus {
 
 
 .sun {
-    height: 500px;
-    width: 500px;
-    background-color: #F98700;
+    width: 32em;
+    height: 32em;
     border-radius: 50%;
+    border: 2px solid rgb(240, 194, 70);
+    box-shadow: 0 0 0 3px #F98700;
+    background-color: #F98700;
     margin: 50px;
     position: absolute;
     top: 20%;
-    left: 32%;
+    left: 35%;
 }
 
 
