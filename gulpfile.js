@@ -69,13 +69,6 @@ gulp.task('jade', function () {
         [
             jadeSrcDir + 'ring-green.jade',
             jadeSrcDir + 'ring-blue.jade',
-            jadeSrcDir + 'tunnel.jade',
-            jadeSrcDir + 'waves-light-blue.jade',
-            jadeSrcDir + 'waves-deep-purple.jade',
-            jadeSrcDir + 'fuzzy-hue.jade',
-            jadeSrcDir + 'fuzzy-saturation.jade',
-            jadeSrcDir + 'combustion-purple.jade',
-            jadeSrcDir + 'combustion-yellow.jade'
         ]
     )
         .pipe(jade())

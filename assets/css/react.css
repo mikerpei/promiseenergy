@@ -1515,7 +1515,7 @@ footer.page-footer input[type=submit]:focus {
 .ring-pink-skin .hero {
   position: relative;
   overflow: hidden;
-  background-color: rgb(2, 213, 249, 1);
+  background: linear-gradient(to bottom, #154277 0%,#576e71 30%,#e1c45e 70%,#b26339 100%);
 }
 
 .ring-pink-skin .hero h1 {
