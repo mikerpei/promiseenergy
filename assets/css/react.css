@@ -896,7 +896,7 @@ nav .table-of-contents a:hover {
 
 @media only screen and (max-width: 600px) {
   .projects .content {
-    background: rgba(25, 25, 25, 0.1);
+    background: rgba(25, 25, 25, 0.4);
   }
 }
 
