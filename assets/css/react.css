@@ -699,23 +699,27 @@ nav .table-of-contents a:hover {
 }
 
 .modal-close {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 1.5rem;
     z-index: 10000;
     font-size: 3rem;
     color: #aa3535;
-    padding: 0 8px;
+    padding: 0 12px;
     background-color: rgba(255, 255, 255, 0.50);
 }
 
-.modal-close::after {
-    position: fixed;
-    top: 0;
+.modal-close-btm {
+    position: absolute;
+    bottom: 0;
     left: 1.5rem;
-    font-size: 1rem;
-    content: 'CLOSE';
+    z-index: 10000;
+    font-size: 3rem;
+    color: #aa3535;
+    padding: 0 12px;
+    background-color: rgba(255, 255, 255, 0.50);
 }
+
 
 .about .modal.bottom-sheet {
     height: auto;
@@ -731,7 +735,7 @@ nav .table-of-contents a:hover {
     }
 
     .about .modal.bottom-sheet .modal-content .square .content {
-        position: relative;
+        position: absolute;
     }
 }
 
