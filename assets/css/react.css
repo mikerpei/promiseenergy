@@ -1004,29 +1004,7 @@ nav .table-of-contents a:hover {
 }
 
 .service-items .content i {
-    -webkit-transition-property: -webkit-transform, opacity;
-    -moz-transition-property: -moz-transform, opacity;
-    transition-property: transform, opacity;
-    -webkit-transition-duration: 0s, 0s;
-    -moz-transition-duration: 0s, 0s;
-    transition-duration: 0s, 0s;
-    -webkit-transition-timing-function: linear, cubic-bezier(0.075, 0.82, 0.165, 1);
-    -moz-transition-timing-function: linear, cubic-bezier(0.075, 0.82, 0.165, 1);
-    transition-timing-function: linear, cubic-bezier(0.075, 0.82, 0.165, 1);
     opacity: 1;
-}
-
-@media only screen and (max-width: 600px) {
-    .service-items .content i {
-        -webkit-transition: none;
-        -moz-transition: none;
-        transition: none;
-        -webkit-transform: translateY(-120%);
-        -moz-transform: translateY(-120%);
-        -ms-transform: translateY(-120%);
-        -o-transform: translateY(-120%);
-        transform: translateY(-120%);
-    }
 }
 
 .service-items .content h4,
@@ -1084,26 +1062,12 @@ nav .table-of-contents a:hover {
 }
 
 .service-items .content:hover i {
-    -webkit-transition-property: -webkit-transform, opacity;
-    -moz-transition-property: -moz-transform, opacity;
-    transition-property: transform, opacity;
-    -webkit-transition-duration: 10s, 0.4s;
-    -moz-transition-duration: 10s, 0.4s;
-    transition-duration: 10s, 0.4s;
-    -webkit-transition-timing-function: linear, cubic-bezier(0.075, 0.82, 0.165, 1);
-    -moz-transition-timing-function: linear, cubic-bezier(0.075, 0.82, 0.165, 1);
-    transition-timing-function: linear, cubic-bezier(0.075, 0.82, 0.165, 1);
-    -webkit-transform: scale(2);
-    -moz-transform: scale(2);
-    -ms-transform: scale(2);
-    -o-transform: scale(2);
-    transform: scale(2);
     opacity: .1;
 }
 
 @media only screen and (max-width: 600px) {
     .service-items .content:hover i {
-        opacity: 1;
+        opacity: .1;
     }
 }
 
