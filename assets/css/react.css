@@ -1007,6 +1007,19 @@ nav .table-of-contents a:hover {
     opacity: 1;
 }
 
+@media only screen and (max-width: 600px) {
+    .service-items .content i {
+        -webkit-transition: none;
+        -moz-transition: none;
+        transition: none;
+        -webkit-transform: translateY(-120%);
+        -moz-transform: translateY(-120%);
+        -ms-transform: translateY(-120%);
+        -o-transform: translateY(-120%);
+        transform: translateY(-120%);
+    }
+}
+
 .service-items .content h4,
 .service-items .content p {
     -webkit-transition: opacity 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -1067,7 +1080,7 @@ nav .table-of-contents a:hover {
 
 @media only screen and (max-width: 600px) {
     .service-items .content:hover i {
-        opacity: .1;
+        opacity: 1;
     }
 }
 
