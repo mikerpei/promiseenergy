@@ -1142,7 +1142,7 @@ nav .table-of-contents a:hover {
 }
 
 .about .you a {
-    color: #191919;
+    color: #e0e0e0;
     border-bottom: 1px solid #e0e0e0;
 }
 
@@ -1151,7 +1151,7 @@ nav .table-of-contents a:hover {
 }
 
 .about .you .name {
-    color: #191919;
+    color: #e0e0e0;
     text-align: center;
 }
 
