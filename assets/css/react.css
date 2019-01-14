@@ -709,7 +709,8 @@ nav .table-of-contents a:hover {
 
 
 .about .modal.bottom-sheet {
-    height: auto;
+    height: 50%vh;
+    max-height: 100%vh;
 }
 
 @media only screen and (max-width: 992px) {
